@@ -23,12 +23,12 @@ public class UpdateData {
 			Employee e1=ss.get(Employee.class,emp_id);
 			
 			e1.setCity("pune");
-			//e1.setDept_no(3);
-			//e1.setMail("abc@123");
-			//e1.setName("Anu");
-			//e1.setPassword("123abc");
+			e1.setDept_no(3);
+			e1.setMail("abc@123");
+			e1.setName("Anu");
+			e1.setPassword("123abc");
 			e1.setRole("Tester");
-			//e1.setSalary(890000);
+			e1.setSalary(890000);
 			
 			//ss.update(e1);
 			ss.merge(e1);
